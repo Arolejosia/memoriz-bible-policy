@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suppression de compte - MemorizBible</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        
+        h1 {
+            color: #667eea;
+            margin-bottom: 30px;
+            font-size: 32px;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 15px;
+        }
+        
+        h2 {
+            color: #764ba2;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            font-size: 24px;
+        }
+        
+        p {
+            margin-bottom: 15px;
+            font-size: 16px;
+        }
+        
+        .app-name {
+            font-weight: bold;
+            color: #667eea;
+        }
+        
+        .steps {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+        
+        .step {
+            padding: 15px;
+            margin: 10px 0;
+            background: white;
+            border-left: 4px solid #667eea;
+            border-radius: 5px;
+        }
+        
+        .step-number {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 30px;
+            margin-right: 10px;
+            font-weight: bold;
+        }
+        
+        .warning {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        
+        .data-list {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 15px 0;
+        }
+        
+        .data-list ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        .data-list li {
+            padding: 8px 0;
+            padding-left: 25px;
+            position: relative;
+        }
+        
+        .data-list li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #667eea;
+            font-weight: bold;
+        }
+        
+        .contact {
+            background: #e7f3ff;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 30px;
+            text-align: center;
+        }
+        
+        .contact a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+            color: #666;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🗑️ Suppression de compte</h1>
+        <p>Cette page explique la procédure de suppression de compte pour l'application <span class="app-name">MemorizBible</span>.</p>
+        
+        <h2>📱 Comment supprimer votre compte</h2>
+        
+        <div class="steps">
+            <div class="step">
+                <span class="step-number">1</span>
+                <strong>Ouvrez l'application MemorizBible</strong> sur votre téléphone
+            </div>
+            
+            <div class="step">
+                <span class="step-number">2</span>
+                <strong>Accédez aux Paramètres</strong> (icône ⚙️ en haut à droite)
+            </div>
+            
+            <div class="step">
+                <span class="step-number">3</span>
+                <strong>Faites défiler jusqu'à "Zone de danger"</strong> en bas de la page
+            </div>
+            
+            <div class="step">
+                <span class="step-number">4</span>
+                <strong>Cliquez sur "Supprimer mon compte"</strong>
+            </div>
+            
+            <div class="step">
+                <span class="step-number">5</span>
+                <strong>Confirmez la suppression</strong> en entrant votre mot de passe
+            </div>
+        </div>
+        
+        <div class="warning">
+            <strong>⚠️ Attention :</strong> Cette action est irréversible. Une fois votre compte supprimé, il ne pourra pas être récupéré.
+        </div>
+        
+        <h2>🗂️ Données supprimées</h2>
+        <p>Lors de la suppression de votre compte, les données suivantes seront <strong>définitivement supprimées</strong> :</p>
+        
+        <div class="data-list">
+            <ul>
+                <li>Votre compte d'authentification (email et mot de passe)</li>
+                <li>Toutes vos données de progression et statistiques</li>
+                <li>Vos versets mémorisés et révisions</li>
+                <li>Vos paramètres personnalisés</li>
+                <li>Votre historique d'activité dans l'application</li>
+                <li>Vos messages dans les groupes (si applicable)</li>
+            </ul>
+        </div>
+        
+        <h2>⏱️ Délai de suppression</h2>
+        <p>La suppression de votre compte et de vos données est <strong>immédiate et définitive</strong>. Aucune donnée n'est conservée après la suppression.</p>
+        
+        <h2>📧 Besoin d'aide ?</h2>
+        <div class="contact">
+            <p>Si vous rencontrez des difficultés pour supprimer votre compte, contactez-nous :</p>
+            <a href="mailto:support@memorizbible.com">support@memorizbible.com</a>
+        </div>
+        
+        <div class="footer">
+            <p><strong>MemorizBible</strong> - Application de mémorisation biblique</p>
+            <p>Dernière mise à jour : Janvier 2025</p>
+        </div>
+    </div>
+</body>
+</html>
